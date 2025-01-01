@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>  
 <html lang="en">  
 <head>  
@@ -80,10 +83,10 @@
       <section id="login-portals">  
         <h2>Login Portals</h2>  
         <div class="button-grid">  
+           <button class="login-button" id="admin-login-button">Administration Login</button>  
            <button class="login-button">Student Login</button>  
            <button class="login-button">Teacher Login</button>  
            <button class="login-button">Parent Login</button>  
-           <button class="login-button">Administration Login</button>  
         </div>  
       </section>  
       <section id="call-to-actions">  
@@ -96,6 +99,45 @@
       <p>&copy; 2023 Kazo Summit Nursery and Primary School</p>  
    </footer>  
    <script src="script.js"></script>  
+  
+   <!-- Administration Login Form -->  
+   <div id="admin-login-form" style="display: none;">  
+      <form>  
+        <label for="username">Username:</label>  
+        <input type="text" id="username" name="username"><br><br>  
+        <label for="password">Password:</label>  
+        <input type="password" id="password" name="password"><br><br>  
+        <button type="submit" id="admin-login-submit">Login</button>  
+      </form>  
+   </div>  
+  
+   <!-- Administration Portal -->  
+   <div id="admin-portal" style="display: none;">  
+      <header>  
+        <nav>  
+           <ul>  
+              <li><a href="#dashboard">Dashboard</a></li>  
+              <li><a href="#users">Users</a></li>  
+              <li><a href="#settings">Settings</a></li>  
+           </ul>  
+        </nav>  
+      </header>  
+      <main>  
+        <section id="dashboard">  
+           <h1>Dashboard</h1>  
+           <p>Welcome to the administration portal dashboard.</p>  
+        </section>  
+        <section id="users">  
+           <h1>Users</h1>  
+           <p>Manage users and their roles.</p>  
+        </section>  
+        <section id="settings">  
+           <h1>Settings</h1>  
+           <p>Configure portal settings and preferences.</p>  
+        </section>  
+      </main>  
+   </div>  
 </body>  
 </html>
+
 
