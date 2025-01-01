@@ -1,0 +1,323 @@
+
+
+/* Administration Portal CSS Code */  
+  
+body {  
+    font-family: 'Open Sans', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #4567b7;  
+    color: #ffffff;  
+ }  
+   
+ header {  
+    background-color: #3498db;  
+    color: #ffffff;  
+    padding: 20px;  
+    text-align: center;  
+ }  
+   
+ header nav {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+ }  
+   
+ header nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+ }  
+   
+ header nav li {  
+    margin-right: 20px;  
+ }  
+   
+ header nav a {  
+    color: #ffffff;  
+    text-decoration: none;  
+ }  
+   
+ #admin-login {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-login form {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+ }  
+   
+ #admin-login label {  
+    margin-bottom: 10px;  
+ }  
+   
+ #admin-login input {  
+    padding: 10px;  
+    margin-bottom: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+ }  
+   
+ #admin-login button {  
+    background-color: #2ecc71;  
+    color: #ffffff;  
+    border: none;  
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+ }  
+   
+ #admin-login button:hover {  
+    background-color: #1abc9c;  
+ }  
+   
+ #admin-dashboard {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-dashboard .dashboard-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-dashboard .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-dashboard .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-user-management {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-user-management .user-management-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-user-management .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-user-management .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-student-management {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-student-management .student-management-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-student-management .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-student-management .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-teacher-management {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-teacher-management .teacher-management-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-teacher-management .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-teacher-management .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-parent-management {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-parent-management .parent-management-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-parent-management .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-parent-management .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-class-management {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-class-management .class-management-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-class-management .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-class-management .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-exam-management {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-exam-management .exam-management-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-exam-management .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-exam-management .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-report-generation {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-report-generation .report-generation-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-report-generation .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-report-generation .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }  
+   
+ #admin-settings {  
+    padding: 20px;  
+    background-color: #6495ed;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-settings .settings-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 20px;  
+ }  
+   
+ #admin-settings .grid-item {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    border: 1px solid #4567b7;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+ }  
+   
+ #admin-settings .grid-item h3 {  
+    font-size: 18px;  
+    margin-top: 0;  
+ }
+ 
