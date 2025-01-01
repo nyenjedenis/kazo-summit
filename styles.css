@@ -35,7 +35,7 @@ header nav a {
 }  
   
 #hero {  
-   background-image: url('hero-image.jpg');  
+   background-image: url('https://th.bing.com/th/id/OIP.i6Mk9B0VR--jOrCrIrstSgHaEJ?rs=1&pid=ImgDetMain');  
    background-size: cover;  
    background-position: center;  
    height: 500px;  
@@ -53,12 +53,18 @@ header nav a {
    font-size: 18px;  
 }  
   
-.hero-image {  
-   width: 100%;  
-   height: 200px;  
-   object-fit: cover;  
-   border-radius: 10px;  
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+.cta-button {  
+   background-color: #2ecc71;  
+   color: #ffffff;  
+   border: none;  
+   border-radius: 5px;  
+   padding: 10px 20px;  
+   font-size: 16px;  
+   cursor: pointer;  
+}  
+  
+.cta-button:hover {  
+   background-color: #1abc9c;  
 }  
   
 #featured-content {  
@@ -100,6 +106,26 @@ header nav a {
   
 .view-all-button:hover {  
    background-color: #1abc9c;  
+}  
+  
+#school-calendar {  
+   padding: 20px;  
+}  
+  
+#school-calendar table {  
+   border-collapse: collapse;  
+   width: 100%;  
+}  
+  
+#school-calendar th, #school-calendar td {  
+   border: 1px solid #4567b7;  
+   padding: 10px;  
+   text-align: left;  
+}  
+  
+#school-calendar th {  
+   background-color: #6495ed;  
+   color: #ffffff;  
 }  
   
 #login-portals {  
@@ -173,8 +199,17 @@ header nav a {
 }  
   
 footer {  
-   background-color: #3498db;  
-   color: #ffffff;  
    padding: 20px;  
+   background-color: #333333;  
+   color: #ffffff;  
    text-align: center;  
+}  
+  
+.footer-image {  
+   width: 100%;  
+   height: 50px;  
+   object-fit: cover;  
+   border-radius: 10px;  
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
 }
+
