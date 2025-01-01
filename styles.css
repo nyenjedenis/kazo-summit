@@ -1,8 +1,11 @@
+
+
 body {  
    font-family: 'Open Sans', sans-serif;  
    margin: 0;  
    padding: 0;  
    background-color: #4567b7;  
+   color: #ffffff;  
 }  
   
 header {  
@@ -47,10 +50,12 @@ header nav a {
   
 #hero h1 {  
    font-size: 36px;  
+   font-weight: bold;  
 }  
   
 #hero p {  
    font-size: 18px;  
+   font-weight: normal;  
 }  
   
 .cta-button {  
@@ -69,37 +74,12 @@ header nav a {
   
 #featured-content {  
    padding: 20px;  
-}  
-  
-.grid-item {  
-   background-color: #6495ed;  
-   padding: 20px;  
-   border: 1px solid #4567b7;  
-   border-radius: 5px;  
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
-}  
-  
-.grid-item h3 {  
-   font-size: 18px;  
-   margin-top: 0;  
-}  
-  
-.view-all-button {  
-   background-color: #2ecc71;  
-   color: #ffffff;  
-   border: none;  
-   border-radius: 5px;  
-   padding: 10px 20px;  
-   font-size: 16px;  
-   cursor: pointer;  
-}  
-  
-.view-all-button:hover {  
-   background-color: #1abc9c;  
+   color: #000000;  
 }  
   
 #school-calendar {  
    padding: 20px;  
+   color: #000000;  
 }  
   
 #school-calendar table {  
@@ -111,11 +91,12 @@ header nav a {
    border: 1px solid #4567b7;  
    padding: 10px;  
    text-align: left;  
+   color: #000000;  
 }  
   
 #school-calendar th {  
    background-color: #6495ed;  
-   color: #ffffff;  
+   color: #000000;  
 }  
   
 #login-portals {  
@@ -123,6 +104,7 @@ header nav a {
    flex-direction: column;  
    align-items: center;  
    padding: 20px;  
+   color: #000000;  
 }  
   
 .button-grid {  
@@ -150,6 +132,7 @@ header nav a {
    flex-direction: column;  
    align-items: center;  
    padding: 20px;  
+   color: #000000;  
 }  
   
 .apply-now-button {  
