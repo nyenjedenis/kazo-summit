@@ -14,10 +14,12 @@ header {
    color: #ffffff;  
    padding: 20px;  
    text-align: center;  
+   position: relative;  
 }  
   
 header nav {  
    display: flex;  
+   justify-content: space-between;  
    align-items: center;  
 }  
   
@@ -36,7 +38,58 @@ header nav li {
 header nav a {  
    color: #ffffff;  
    text-decoration: none;  
+}  
+  
+.nav-toggle {  
+   position: absolute;  
+   top: 20px;  
+   right: 20px;  
+   cursor: pointer;  
+}  
+  
+.nav-toggle span {  
+   display: block;  
+   width: 30px;  
+   height: 3px;  
+   background-color: #ffffff;  
+   margin-bottom: 5px;  
+   transition: all 0.3s ease;  
+}  
+  
+.nav-toggle span:nth-child(1) {  
+   transform: rotate(0deg);  
+}  
+  
+.nav-toggle span:nth-child(2) {  
+   transform: rotate(0deg);  
+}  
+  
+.nav-toggle span:nth-child(3) {  
+   transform: rotate(0deg);  
+}  
+  
+.nav-toggle:hover span:nth-child(1) {  
+   transform: rotate(45deg) translateX(5px);  
+}  
+  
+.nav-toggle:hover span:nth-child(2) {  
+   opacity: 0;  
+}  
+  
+.nav-toggle:hover span:nth-child(3) {  
+   transform: rotate(-45deg) translateX(5px);  
+}  
+  
+/* Toggle navigation bar on hover */  
+header nav ul {  
+   transition: all 0.3s ease;  
+   transform: translateY(-100%);  
+}  
+  
+header nav ul:hover {  
+   transform: translateY(0);  
 }
+
 
   
 #hero {  
