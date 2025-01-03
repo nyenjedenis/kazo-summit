@@ -48,6 +48,15 @@ adminLoginSubmitButton.addEventListener('click', (e) => {
 });
 
 
+// Get the navigation bar and toggle elements  
+const navBar = document.querySelector('header nav');  
+const navToggle = document.querySelector('.nav-toggle');  
+  
+// Add an event listener to the navigation toggle  
+navToggle.addEventListener('click', () => {  
+   // Toggle the navigation bar  
+   navBar.classList.toggle('active');  
+});
 
 
 // Add event listener to login buttons  
